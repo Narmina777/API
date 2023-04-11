@@ -1,32 +1,81 @@
-# Prerequisites
-*.d
+//using Microsoft.AspNetCore.Mvc;
+//using System.ComponentModel.DataAnnotations;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+//namespace WebApplication3.Controllers
+//{
+//    [ApiController]
+//    [Route("[controller]")]
+//    public class   DefaultControllerr : ControllerBase
+//    {
+        
+//        [HttpGet("sum")]
+//        public int sum(int a , int b)
+//        {
+//            return (a + b);
+//        }
+//    }
+//}
 
-# Precompiled Headers
-*.gch
-*.pch
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using static System.Net.WebRequestMethods;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+namespace WebApplication3.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class DefaultControllerr : ControllerBase
+    {
 
-# Fortran module files
-*.mod
-*.smod
+        //[HttpPost("max")]
+        //public int max(int[] array)
+        //{
+        //    return array.Length;
+        //}
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+        //[HttpPost("max")]
+        //public int max(int[] array)
+        //{
+        //    return array.Max();
+        //}
 
-# Executables
-*.exe
-*.out
-*.app
+        //[HttpPost("average")]
+        //public double average(int[] array)
+        //{
+        //    return array.Average();
+        //}
+
+
+        //[HttpDelete()]
+        //public string name()
+        //{
+        //    return "Hello World";
+        //}
+
+       
+        
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
